@@ -73,6 +73,7 @@ public class GetData {
 
         final EditText email = activity.findViewById(R.id.email), password = activity.findViewById(R.id.password);
 
+        email.setBackground(activity.getResources().getDrawable(R.drawable.edit_text_background_one));
         activity.findViewById(R.id.go_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
